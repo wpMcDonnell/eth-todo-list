@@ -1,5 +1,6 @@
-var TodoList = artifacts.require("./TodoList.sol");
+
+const TodoList = artifacts.require("../contracts/TodoList.sol");
 
 module.exports = function(deployer) {
-  deployer.deploy(TodoList);
-};
+deployer.deploy(TodoList);
+}
