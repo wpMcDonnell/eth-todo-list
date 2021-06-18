@@ -13,27 +13,28 @@
       ],
       "payable": false,
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "signature": "0xb6cb58a5"
     }
   ],
-  "bytecode": "0x608060405260008055348015601357600080fd5b50609e806100226000396000f3fe608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063b6cb58a5146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b6000548156fea165627a7a72305820f895bfb2113d169c29a3eee042e090083ffc78c87a7c5ab83135907c0737f20b0029",
-  "deployedBytecode": "0x608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063b6cb58a5146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b6000548156fea165627a7a72305820f895bfb2113d169c29a3eee042e090083ffc78c87a7c5ab83135907c0737f20b0029",
+  "bytecode": "0x608060405260008055348015601357600080fd5b506099806100226000396000f3fe608060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663b6cb58a581146043575b600080fd5b348015604e57600080fd5b5060556067565b60408051918252519081900360200190f35b6000548156fea165627a7a72305820bddc4d366c9b77ad5a730232d4e3e0e5ae46c203e86a5ab8bb10410dbbc135090029",
+  "deployedBytecode": "0x608060405260043610603e5763ffffffff7c0100000000000000000000000000000000000000000000000000000000600035041663b6cb58a581146043575b600080fd5b348015604e57600080fd5b5060556067565b60408051918252519081900360200190f35b6000548156fea165627a7a72305820bddc4d366c9b77ad5a730232d4e3e0e5ae46c203e86a5ab8bb10410dbbc135090029",
   "sourceMap": "25:50:1:-;;;71:1;47:25;;25:50;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:50:1;;;;;;;",
-  "deployedSourceMap": "25:50:1:-;;;;;;;;;;;;;;;;;;;;;;;;47:25;;8:9:-1;5:2;;;30:1;27;20:12;5:2;47:25:1;;;;;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "deployedSourceMap": "25:50:1:-;;;;;;;;;;;;;;;;;;;;;;;47:25;;8:9:-1;5:2;;;30:1;27;20:12;5:2;47:25:1;;;;;;;;;;;;;;;;;;;;;;;;:::o",
   "source": "pragma solidity ^0.5.0;\n\ncontract TodoList {\n  uint public taskCount = 0;\n}\n",
   "sourcePath": "/Users/willmcdonnell/sei/projects/eth-todo-list/contracts/TodoList.sol",
   "ast": {
     "absolutePath": "/Users/willmcdonnell/sei/projects/eth-todo-list/contracts/TodoList.sol",
     "exportedSymbols": {
       "TodoList": [
-        64
+        62
       ]
     },
-    "id": 65,
+    "id": 63,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 60,
+        "id": 58,
         "literals": [
           "solidity",
           "^",
@@ -49,19 +50,19 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 64,
+        "id": 62,
         "linearizedBaseContracts": [
-          64
+          62
         ],
         "name": "TodoList",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 63,
+            "id": 61,
             "name": "taskCount",
             "nodeType": "VariableDeclaration",
-            "scope": 64,
+            "scope": 62,
             "src": "47:25:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -70,7 +71,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 61,
+              "id": 59,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
               "src": "47:4:1",
@@ -82,7 +83,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "30",
-              "id": 62,
+              "id": 60,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -100,7 +101,7 @@
             "visibility": "public"
           }
         ],
-        "scope": 65,
+        "scope": 63,
         "src": "25:50:1"
       }
     ],
@@ -110,14 +111,14 @@
     "absolutePath": "/Users/willmcdonnell/sei/projects/eth-todo-list/contracts/TodoList.sol",
     "exportedSymbols": {
       "TodoList": [
-        64
+        62
       ]
     },
-    "id": 65,
+    "id": 63,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 60,
+        "id": 58,
         "literals": [
           "solidity",
           "^",
@@ -133,19 +134,19 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 64,
+        "id": 62,
         "linearizedBaseContracts": [
-          64
+          62
         ],
         "name": "TodoList",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 63,
+            "id": 61,
             "name": "taskCount",
             "nodeType": "VariableDeclaration",
-            "scope": 64,
+            "scope": 62,
             "src": "47:25:1",
             "stateVariable": true,
             "storageLocation": "default",
@@ -154,7 +155,7 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 61,
+              "id": 59,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
               "src": "47:4:1",
@@ -166,7 +167,7 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "30",
-              "id": 62,
+              "id": 60,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
@@ -184,7 +185,7 @@
             "visibility": "public"
           }
         ],
-        "scope": 65,
+        "scope": 63,
         "src": "25:50:1"
       }
     ],
@@ -196,56 +197,14 @@
   },
   "networks": {
     "5777": {
-      "events": {
-        "0x05d0fb833127fc08168556d0e7ca9554fc3f6bc843b3b7d2bf1c35aea6bab660": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": false,
-              "name": "id",
-              "type": "uint256"
-            },
-            {
-              "indexed": false,
-              "name": "content",
-              "type": "string"
-            },
-            {
-              "indexed": false,
-              "name": "completed",
-              "type": "bool"
-            }
-          ],
-          "name": "TaskCreated",
-          "type": "event",
-          "signature": "0x05d0fb833127fc08168556d0e7ca9554fc3f6bc843b3b7d2bf1c35aea6bab660"
-        },
-        "0xe21fa966ca5cd02748c0752352d18c48165e61cb55b4c29cccf924b5a95fcff1": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": false,
-              "name": "id",
-              "type": "uint256"
-            },
-            {
-              "indexed": false,
-              "name": "completed",
-              "type": "bool"
-            }
-          ],
-          "name": "TaskCompleted",
-          "type": "event",
-          "signature": "0xe21fa966ca5cd02748c0752352d18c48165e61cb55b4c29cccf924b5a95fcff1"
-        }
-      },
+      "events": {},
       "links": {},
-      "address": "0xf32CDab2302392D19f744894Df0D7F4507192276",
-      "transactionHash": "0x33790ae402226069f982d3677c26ea39caa3369cc30baee747b8f484ab401076"
+      "address": "0x839E9C6458560aD530d5058B22bF03B77e6f8D45",
+      "transactionHash": "0xedddfce6513c7aa67e9a7b66fdf9d9f3e1d6c138adc1bf0a83ba4414a6e220d8"
     }
   },
   "schemaVersion": "3.0.1",
-  "updatedAt": "2021-06-18T15:20:24.021Z",
+  "updatedAt": "2021-06-18T16:09:18.121Z",
   "devdoc": {
     "methods": {}
   },
